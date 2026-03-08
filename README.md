@@ -317,11 +317,11 @@ NUMBER(10)
 
 # 8. Logical Operators
 
-| Operator | Token |   |    |
-| -------- | ----- | - | -- |
-| &&       | AND   |   |    |
-|          |       |   | OR |
-| !        | NOT   |   |    |
+| Operator | Token |  
+| -------- | ----- | 
+| &&       | AND   |   
+| ||       | OR    |  
+| !        | NOT   |  
 
 Example:
 
@@ -333,14 +333,14 @@ x > 0 && y < 10
 
 # 9. Bitwise Operators
 
-| Operator | Token       |        |
-| -------- | ----------- | ------ |
-| &        | BIT_AND     |        |
-|          |             | BIT_OR |
-| ^        | BIT_XOR     |        |
-| ~        | BIT_NOT     |        |
-| <<       | LEFT_SHIFT  |        |
-| >>       | RIGHT_SHIFT |        |
+| Operator | Token       |       
+| -------- | ----------- | 
+| &        | BIT_AND     |       
+| |        | BIT_OR      |
+| ^        | BIT_XOR     |        
+| ~        | BIT_NOT     |        
+| <<       | LEFT_SHIFT  |        
+| >>       | RIGHT_SHIFT |        
 
 ---
 
