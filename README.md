@@ -320,7 +320,7 @@ NUMBER(10)
 | Operator | Token |  
 | -------- | ----- | 
 | &&       | AND   |   
-| '||'     | OR    |  
+| **||**       | **OR**    |  
 | !        | NOT   |  
 
 Example:
@@ -336,7 +336,7 @@ x > 0 && y < 10
 | Operator | Token       |       
 | -------- | ----------- | 
 | &        | BIT_AND     |       
-| '|'      | BIT_OR      |
+| |        | BIT_OR      |
 | ^        | BIT_XOR     |        
 | ~        | BIT_NOT     |        
 | <<       | LEFT_SHIFT  |        
