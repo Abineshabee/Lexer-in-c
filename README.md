@@ -320,7 +320,7 @@ NUMBER(10)
 | Operator | Token |  
 | -------- | ----- | 
 | &&       | AND   |   
-| **||**       | **OR**    |  
+| \|\|      | **Option B**   |  
 | !        | NOT   |  
 
 Example:
