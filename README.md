@@ -3,12 +3,12 @@
 
 # C Lexer – Tokenizer for C/C++ Source Code
 
-This project implements a **Lexical Analyzer (Lexer)** written in the **C programming language**.
-The lexer reads C-like source code and breaks it into meaningful components called **tokens** such as keywords, identifiers, operators, literals, and delimiters.
-
 <p align="center">
   <img src="Lexer-logo.svg" width="720">
 </p>
+
+This project implements a **Lexical Analyzer (Lexer)** written in the **C programming language**.
+The lexer reads C-like source code and breaks it into meaningful components called **tokens** such as keywords, identifiers, operators, literals, and delimiters.
 
 A lexical analyzer is the **first stage of a compiler pipeline**, responsible for converting raw program text into a structured stream of tokens that can later be processed by a parser.
 
