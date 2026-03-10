@@ -3,7 +3,7 @@
 
 # C Lexer – Tokenizer for C/C++ Source Code
 <p align="center">
-  <img src="Lexer-logo.svg" width="700">
+  <img src="Lexer-in-c-logo.svg" width="700">
 </p>
 
 This project implements a **Lexical Analyzer (Lexer)** written in the **C programming language**.
