@@ -1,0 +1,54 @@
+<svg width="520" height="220" viewBox="0 0 520 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="transparent"></rect>
+
+  <!-- code line (white) - centered -->
+  <text x="260" y="60" font-family="monospace" font-size="22" fill="white" text-anchor="middle">
+    int main() { return 0; }
+  </text>
+
+  <!-- underlines per token (centered block, total width ~285, so starts at 260-142=118) -->
+  <rect x="118" y="80" width="35" height="10" fill="#00cc7a" fill-opacity="0.2">
+    <animate attributeName="fill-opacity" values="0.2;1;0.2" dur="4s" begin="0.4s" repeatCount="indefinite"></animate>
+    <animate attributeName="fill" values="#00cc7a;#00ff66;#00cc7a" dur="4s" begin="0.4s" repeatCount="indefinite"></animate>
+  </rect>
+  <rect x="158" y="80" width="55" height="10" fill="#00cc7a" fill-opacity="0.2">
+    <animate attributeName="fill-opacity" values="0.2;1;0.2" dur="4s" begin="1.0s" repeatCount="indefinite"></animate>
+    <animate attributeName="fill" values="#00cc7a;#00ff66;#00cc7a" dur="4s" begin="1.0s" repeatCount="indefinite"></animate>
+  </rect>
+  <rect x="218" y="80" width="25" height="10" fill="#00cc7a" fill-opacity="0.2">
+    <animate attributeName="fill-opacity" values="0.2;1;0.2" dur="4s" begin="1.6s" repeatCount="indefinite"></animate>
+    <animate attributeName="fill" values="#00cc7a;#00ff66;#00cc7a" dur="4s" begin="1.6s" repeatCount="indefinite"></animate>
+  </rect>
+  <rect x="243" y="80" width="20" height="10" fill="#00cc7a" fill-opacity="0.2">
+    <animate attributeName="fill-opacity" values="0.2;1;0.2" dur="4s" begin="2.0s" repeatCount="indefinite"></animate>
+    <animate attributeName="fill" values="#00cc7a;#00ff66;#00cc7a" dur="4s" begin="2.0s" repeatCount="indefinite"></animate>
+  </rect>
+  <rect x="268" y="80" width="65" height="10" fill="#00cc7a" fill-opacity="0.2">
+    <animate attributeName="fill-opacity" values="0.2;1;0.2" dur="4s" begin="2.5s" repeatCount="indefinite"></animate>
+    <animate attributeName="fill" values="#00cc7a;#00ff66;#00cc7a" dur="4s" begin="2.5s" repeatCount="indefinite"></animate>
+  </rect>
+  <rect x="338" y="80" width="40" height="10" fill="#00cc7a" fill-opacity="0.2">
+    <animate attributeName="fill-opacity" values="0.2;1;0.2" dur="4s" begin="3.2s" repeatCount="indefinite"></animate>
+    <animate attributeName="fill" values="#00cc7a;#00ff66;#00cc7a" dur="4s" begin="3.2s" repeatCount="indefinite"></animate>
+  </rect>
+  <rect x="383" y="80" width="20" height="10" fill="#00cc7a" fill-opacity="0.2">
+    <animate attributeName="fill-opacity" values="0.2;1;0.2" dur="4s" begin="3.7s" repeatCount="indefinite"></animate>
+    <animate attributeName="fill" values="#00cc7a;#00ff66;#00cc7a" dur="4s" begin="3.7s" repeatCount="indefinite"></animate>
+  </rect>
+
+  <!-- scanning bar (matches underline range: 118 to 403) -->
+  <rect x="118" y="40" width="6" height="80" fill="#00ff66" opacity="0">
+    <animate attributeName="x" from="118" to="403" dur="4s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.05;0.95;1" dur="4s" repeatCount="indefinite"></animate>
+  </rect>
+
+  <!-- title -->
+  <text x="260" y="150" font-family="Segoe UI, Arial" font-size="30" font-weight="700" fill="white" text-anchor="middle" letter-spacing="3">
+    C Lexer
+  </text>
+
+  <!-- subtitle -->
+  <text x="260" y="170" font-family="Segoe UI, Arial" font-size="6" fill="#00ff66" text-anchor="middle" letter-spacing="3">
+    TOKENIZER FOR C/C++ SOURCE CODE
+  </text>
+</svg>
